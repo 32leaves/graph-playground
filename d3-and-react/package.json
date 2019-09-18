@@ -1,0 +1,30 @@
+{
+  "name": "d3-and-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "curl lama.sh | sh",
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "devDependencies": {
+    "@types/d3": "^5.7.2",
+    "@types/dagre-d3": "^0.4.39",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "d3": "^5.12.0",
+    "d3-dag": "^0.3.0",
+    "dagre-d3": "^0.6.3",
+    "elkjs": "^0.4.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
